@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "userName": "john_doe",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@email.com",
+      "password": "VJohn@123",
+      "orderHistory": [
+        {
+          "orderId": "A1",
+          "orderedBy": "john_doe",
+          "orderItems": [
+            { "item": "Burger", "qty": "2" },
+            { "item": "Fries", "qty": "1" },
+            { "item": "Soda", "qty": "1" }
+          ],
+          "date": "2023-02-10",
+          "status": "failed",
+          "totalPrice": 25.5,
+          "extraNote": "Extra Toppings on Pizaa"
+        },
+        {
+          "orderId": "B2",
+          "orderedBy": "jane_smith",
+          "orderItems": [
+            { "item": "Pizza", "qty": "2" },
+            { "item": "Salad", "qty": "1" },
+            { "item": "Water-1L", "qty": "1" }
+          ],
+          "date": "2023-02-10",
+          "status": "failed",
+          "totalPrice": 25.5,
+          "extraNote": "Extra Toppings on Pizaa"
+        }
+      ]
+    },
+    {
+      "userName": "jane_smith",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant C",
+          "orderedItems": ["Pasta", "Garlic Bread", "Wine"],
+          "orderId": "789GHI",
+          "date": "2023-03-05",
+          "status": "processing",
+          "totalPrice": 30.75
+        }
+      ]
+    },
+    {
+      "userName": "mike_johnson",
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "email": "mike.johnson@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant D",
+          "orderedItems": ["Steak", "Mashed Potatoes", "Beer"],
+          "orderId": "101JKL",
+          "date": "2023-04-20",
+          "status": "completed",
+          "totalPrice": 45.99
+        },
+        {
+          "orderedFrom": "Restaurant E",
+          "orderedItems": ["Sushi", "Edamame", "Green Tea"],
+          "orderId": "112MNO",
+          "date": "2023-05-12",
+          "status": "completed",
+          "totalPrice": 38.5
+        }
+      ]
+    },
+    {
+      "userName": "emily_white",
+      "firstName": "Emily",
+      "lastName": "White",
+      "email": "emily.white@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant F",
+          "orderedItems": ["Chicken Caesar Salad", "Soup", "Iced Tea"],
+          "orderId": "131PQR",
+          "date": "2023-06-08",
+          "status": "failed",
+          "totalPrice": 22.75
+        }
+      ]
+    },
+    {
+      "userName": "alex_lee",
+      "firstName": "Alex",
+      "lastName": "Lee",
+      "email": "alex.lee@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant G",
+          "orderedItems": ["Tacos", "Guacamole", "Margarita"],
+          "orderId": "141STU",
+          "date": "2023-07-25",
+          "status": "processing",
+          "totalPrice": 28.99
+        }
+      ]
+    },
+    {
+      "userName": "olivia_miller",
+      "firstName": "Olivia",
+      "lastName": "Miller",
+      "email": "olivia.miller@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant H",
+          "orderedItems": ["Ramen", "Gyoza", "Sake"],
+          "orderId": "152VWX",
+          "date": "2023-08-14",
+          "status": "completed",
+          "totalPrice": 33.5
+        }
+      ]
+    },
+    {
+      "userName": "david_jones",
+      "firstName": "David",
+      "lastName": "Jones",
+      "email": "david.jones@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant I",
+          "orderedItems": ["BBQ Ribs", "Coleslaw", "Soft Drink"],
+          "orderId": "161YZA",
+          "date": "2023-09-30",
+          "status": "failed",
+          "totalPrice": 40.25
+        }
+      ]
+    },
+    {
+      "userName": "sophia_kim",
+      "firstName": "Sophia",
+      "lastName": "Kim",
+      "email": "sophia.kim@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant J",
+          "orderedItems": ["Hamburger", "Onion Rings", "Shake"],
+          "orderId": "172BCD",
+          "date": "2023-10-18",
+          "status": "processing",
+          "totalPrice": 18.99
+        }
+      ]
+    },
+    {
+      "userName": "liam_nguyen",
+      "firstName": "Liam",
+      "lastName": "Nguyen",
+      "email": "liam.nguyen@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant K",
+          "orderedItems": ["Pad Thai", "Spring Rolls", "Thai Iced Tea"],
+          "orderId": "183EFG",
+          "date": "2023-11-05",
+          "status": "completed",
+          "totalPrice": 27.5
+        }
+      ]
+    },
+    {
+      "userName": "ava_smith",
+      "firstName": "Ava",
+      "lastName": "Smith",
+      "email": "ava.smith@email.com",
+      "orderHistory": [
+        {
+          "orderedFrom": "Restaurant L",
+          "orderedItems": ["Cesar Salad", "Bruschetta", "Red Wine"],
+          "orderId": "194HIJ",
+          "date": "2023-12-22",
+          "status": "processing",
+          "totalPrice": 35.75
+        }
+      ]
+    }
+  ]
+}

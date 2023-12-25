@@ -1,0 +1,33 @@
+{
+  "owners": [
+    {
+      "ownerName": "restaurant_owner1",
+      "restaurantName": "Delicious Bites",
+      "email": "owner1@email.com",
+      "phone": "555-111-1111",
+      "address": "123 Main St, Cityville",
+      "account_balance": 350,
+      "menu": [
+        {
+          "itemName": "Burger",
+          "itemDescription": "Juicy beef patty with fresh veggies",
+          "itemPrice": 8.99,
+          "category": "Burger"
+        },
+        {
+          "itemName": "Pizza",
+          "itemDescription": "Classic Margherita pizza with tomato and mozzarella",
+          "itemPrice": 12.5,
+          "category": "Pizza"
+        },
+        {
+          "itemName": "Pasta",
+          "itemDescription": "Spaghetti with marinara sauce and meatballs",
+          "itemPrice": 10.75,
+          "category": "Italian"
+        }
+      ],
+      "orders": "refrence from users DB an Array of Order ID's"
+    }
+  ]
+}

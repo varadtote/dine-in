@@ -1,0 +1,47 @@
+
+
+Home Router
+http://localhost:8080/
+
+Authentiaction
+http://localhost:8080/auth
+
+Cutsomer
+- Signup ->  http://localhost:8080/auth/signup
+- Login -> http://localhost:8080/auth/login
+
+Owner
+- OwnerSignup ->  http://localhost:8080/auth/ownersignup
+-- expected Body 
+{
+	"restaurantName": "Billu Da Dhabha",
+	"email": "eat.billu@gmail.com",
+	"password": "billu",
+	"phone": "1256889898",
+	"address": "ABC Plaza, Punjab"
+}
+
+- OwnerLogin -> http://localhost:8080/auth/ownerlogin
+{
+    "email": "eat.billu@gmail.com",
+	"password": "billu",
+}
+
+
+
+Restaurant 
+http://localhost:8080/restaurant
+
+
+Get All Restaurants
+http://localhost:8080/restaurant/all
+
+// get all restuarants by name
+http://localhost:8080/restaurant/all/:restaurantName'
+
+// get specific restaurant by Name
+http://localhost:8080/:restaurantName',
+
+
+// get resaturant by ID
+http://localhost:8080/find/:restaurantID', getRestaurantById);
